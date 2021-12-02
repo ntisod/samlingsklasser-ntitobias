@@ -18,6 +18,8 @@ namespace Samlingsklasser
             Console.WriteLine("5. Tärningskast med SortedList (Övning 1).");
             Console.WriteLine("6. Queue-exempel.");
             Console.WriteLine("7. Stack-exempel.");
+            Console.WriteLine("8. Övning 2.");
+
 
             //Läs in menyval
             Console.Write("Ange siffra för vad du vill göra: ");
@@ -46,9 +48,17 @@ namespace Samlingsklasser
                 case "7":
                     StackExempel();
                     break;
+                case "8":
+                    Övning2();
+                    break;
             }
 
             Console.ReadKey();
+        }
+
+        static void Övning2()
+        {
+
         }
 
         static void DictionaryExempel()
@@ -77,6 +87,9 @@ namespace Samlingsklasser
 
         }
 
+        /// <summary>
+        /// Exempel 2
+        /// </summary>
         static void DiceDictionary()
         {
             //Skapa en dictionary med int som nyckel och int som värde
